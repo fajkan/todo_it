@@ -4,6 +4,12 @@ public class Person {
     private final int personID;
     private String firstName, lastName;
 
+    public Person(){
+        personID = 0;
+        firstName ="";
+        lastName="";
+    }
+
     public Person(int personID, String firstName, String lastName) {
         this.personID = personID;
         this.firstName = firstName;
